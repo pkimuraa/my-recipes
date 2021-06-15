@@ -1,5 +1,26 @@
 <template>
   <div>
+    <vs-navbar center>
+     <template #left>
+        <img width='25px' src="../assets/img/knife.png" alt="">
+        </template>
+        <vs-navbar-item id="guide">
+          Guide
+        </vs-navbar-item>
+        <vs-navbar-item id="docs">
+          Documents
+        </vs-navbar-item>
+        <vs-navbar-item id="components">
+          Components
+        </vs-navbar-item>
+        <vs-navbar-item id="license">
+          license
+        </vs-navbar-item>
+        <template #right>
+        <vs-button flat >Login</vs-button>
+        <vs-button>Get Started</vs-button>
+      </template>
+    </vs-navbar>
     <Nuxt />
   </div>
 </template>
